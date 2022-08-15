@@ -1,9 +1,20 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let splitWord =  word.split("")
+  let reverseWord = splitWord.reverse()
+  let joinWord = reverseWord.join("")
+
+  if (joinWord === word) {
+    return true
+  } else return false
 }
 
 /* 
   Add your pseudocode here
+  initialize function
+  check possible applicable syntax , needing to reverse a string
+  turn string to array , reverse array , join back together!
+  if stmnt for T or F
 */
 
 /*
